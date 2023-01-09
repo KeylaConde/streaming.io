@@ -1,0 +1,1 @@
+const tabla = document.createElement("table");

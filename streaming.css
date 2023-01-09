@@ -1,0 +1,25 @@
+#tablaProducto {
+    width: 100%;
+    border: 1px solid black;
+    color: white;
+    background-color: #e50914;
+}
+#header-nav {
+    background-color: #e50914;
+    border: 1px solid black;
+}
+.titleHead {
+    color: white;
+}
+.tbody {
+    border: 1px solid black;
+    color: black;
+}
+.td {
+    border: 1px solid black;
+    background-color: white;
+}
+.body {
+    background-color: gray;
+    color: black;
+}
