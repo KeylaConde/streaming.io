@@ -3,13 +3,15 @@
     border: 1px solid black;
     color: white;
     background-color: #e50914;
+    verde: #25d366;
+    azul: #1877f2
 }
 #header-nav {
-    background-color: #e50914;
+    background-color: white;
     border: 1px solid black;
 }
 .titleHead {
-    color: white;
+    color: black;
 }
 .tbody {
     border: 1px solid black;
@@ -21,5 +23,18 @@
 }
 .body {
     background-color: gray;
+    color:white;
+    ;
+}
+#whatsapp {
     color: black;
+}
+
+#logo-whatsapp {
+    color: #25d366;
+    width: 1rem;
+    height: 1rem;  
+}
+.pedidos {
+    color: white;
 }
