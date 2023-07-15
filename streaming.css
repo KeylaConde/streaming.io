@@ -26,7 +26,7 @@
     width: 100%;
     border: 1px solid gray;
     color: black;
-    background-color: var(--white;
+    background-color: var(--white);
     
 }
 #header-nav {
@@ -45,12 +45,18 @@
     background-color: black;
 }
 .body {
-    background-color: var(--purple);
-    color:var(--white);
+    background: linear-gradient(black, var(--purple));
+    color: black;
 }
+
+#header-nav ul li a .nav-link:hover {
+    color: var(--red)!important;
+}
+
 #whatsapp {
-    color: var(--verde);
+    margin:5px;
 }
+
 
 #logo-whatsapp {
     color: #25d366;
@@ -64,4 +70,8 @@
     width: 30px;
     height: 30px;
     color: var(--verde);
+}
+
+#footer .optionsFooter {
+    color: var(--white);
 }
