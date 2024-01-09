@@ -1,0 +1,109 @@
+:root {
+    --blue: #473ec9;
+    --white: #fff;
+    --red: #db0a0a;
+    --gray: gray;
+}
+
+#header img {
+    width: 50px;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+}
+
+.navbarOptions {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+.navbarOptions:hover {
+    color: var(--blue);
+}
+
+#whatsapp {
+    margin: 5px;
+}
+
+.text-revendedor {
+    color: var(--red);   
+}
+
+.text-revendedor:hover {
+    color: var(--blue);
+}
+
+#main .carousel-inner img {
+    max-height: 75vh;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+#carousel {
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--white);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#carousel .overlay p {
+    font-size: 18px;
+}
+
+a .btn-combos {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+a .btn-combos:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
+small {
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--red);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    color: var(--red);
+    font-size: 44px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+}
+
+section img {
+    border: 1px solid var(--gray);
+}
+
+.card {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.info-streaming {
+    background-color: black;
+    color: var(--white);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+footer {
+    margin: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+}
