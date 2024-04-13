@@ -65,6 +65,7 @@
 a .btn-combos {
     background-color: var(--red);
     color: var(--white);
+    margin: 10px;
 }
 
 a .btn-combos:hover {
