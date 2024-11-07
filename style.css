@@ -2,6 +2,7 @@
     --blue: #473ec9;
     --white: #fff;
     --red: #db0a0a;
+    --red2: #830101;
     --gray: gray;
 }
 
@@ -9,15 +10,25 @@
     width: 50px;
     border: 1px solid var(--white);
     border-radius: 50%;
+    background: #db0a0a!important;
+}
+
+.custom-bg-color {
+    background-color: var(--red2);
+}
+
+.custom-color {
+    color: yellow;
 }
 
 .navbarOptions {
-    color: var(--white);
+    color: black;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
     font-weight: bolder;
 }
 
 .navbarOptions:hover {
-    color: var(--blue);
+    color: white;
 }
 
 #whatsapp {
@@ -25,17 +36,21 @@
 }
 
 .text-revendedor {
-    color: var(--red);   
+    color: yellow;   
 }
 
 .text-revendedor:hover {
     color: var(--blue);
 }
 
+body {
+    background: var(--red2);
+}
+
 #main .carousel-inner img {
     max-height: 75vh;
     object-fit: cover;
-    filter: grayscale(50%);
+    filter: grayscale(70%);
 }
 
 #carousel {
@@ -50,7 +65,7 @@
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    color: var(--white);
+    color: yellow;
 }
 
 #carousel .overlay .container,
@@ -76,14 +91,14 @@ a .btn-combos:hover {
 small {
     font-size: 26px;
     font-weight: bold;
-    color: var(--red);
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+    color: black;
+    text-shadow: 2px 2px 2px rgba(245, 241, 241, 0.9);
 }
 
 h2 {
-    color: var(--red);
+    color: black;
     font-size: 44px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+    text-shadow: 2px 2px 2px rgba(245, 241, 241, 0.9);
 }
 
 section img {
@@ -91,7 +106,9 @@ section img {
 }
 
 .card {
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+    border-width: 1px;
+    border-style: solid;
 }
 
 .info-streaming {
@@ -103,10 +120,18 @@ section img {
 
 footer {
     margin: 2rem;
+    color: yellow;
 }
 
 footer a {
     text-decoration: none;
+    color: black;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: var(--white);
 }
 
 /*Combos*/
