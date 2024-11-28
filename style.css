@@ -4,31 +4,41 @@
     --red: #db0a0a;
     --red2: #830101;
     --gray: gray;
+    /* Navidad */
+
+    --crema: #f3eacf;
+    --mostaza: #dab880;
+    --zapote: #cd8640;
+    --rojoNavidad: #a31414;
+    --vino: #65090c;
+    --café: #50090a;
+    --verdeNavidad: #058076;
+    --amarilloNavidad: #d7ad3b;
 }
 
 #header img {
     width: 50px;
     border: 1px solid var(--white);
     border-radius: 50%;
-    background: #db0a0a!important;
+    background: var(--café)!important;
 }
 
 .custom-bg-color {
-    background-color: var(--red2);
+    background-color: var(--red);
 }
 
 .custom-color {
-    color: yellow;
+    color: var(--white);
 }
 
 .navbarOptions {
-    color: black;
+    color: var(--crema);
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
     font-weight: bolder;
 }
 
 .navbarOptions:hover {
-    color: white;
+    color: var(--verdeNavidad);
 }
 
 #whatsapp {
@@ -36,15 +46,19 @@
 }
 
 .text-revendedor {
-    color: yellow;   
+    color: var(--amarilloNavidad);   
 }
 
 .text-revendedor:hover {
-    color: var(--blue);
+    color: var(--verdeNavidad);
 }
 
 body {
-    background: var(--red2);
+    background-image: url(./image/navideño2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
 }
 
 #main .carousel-inner img {
@@ -65,7 +79,7 @@ body {
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    color: yellow;
+    color: var(--crema);
 }
 
 #carousel .overlay .container,
@@ -78,27 +92,28 @@ body {
 }
 
 a .btn-combos {
-    background-color: var(--red);
+    background-color: var(--rojoNavidad);
     color: var(--white);
     margin: 10px;
 }
 
 a .btn-combos:hover {
-    background-color: var(--blue);
+    background-color: var(--verdeNavidad);
     color: white;
 }
 
 small {
     font-size: 26px;
     font-weight: bold;
-    color: black;
-    text-shadow: 2px 2px 2px rgba(245, 241, 241, 0.9);
+    color: var(--rojoNavidad);
+    text-shadow: 2px 2px 2px rgba(253, 253, 2, 0.9);
+    /*rgba(245, 241, 241, 0.9)*/
 }
 
 h2 {
-    color: black;
+    color: var(--rojoNavidad);
     font-size: 44px;
-    text-shadow: 2px 2px 2px rgba(245, 241, 241, 0.9);
+    text-shadow: 2px 2px 2px rgba(253, 253, 2, 0.9);
 }
 
 section img {
@@ -106,32 +121,41 @@ section img {
 }
 
 .card {
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 10px rgba(253, 253, 2, 0.9);
+    /*rgba(255, 255, 255, 0.8);*/
     border-width: 1px;
     border-style: solid;
 }
 
+.card:hover {
+    box-shadow: 0px 0px 10px rgba(14, 133, 20, 0.9);
+}
+
+.comprar :hover{
+    background-color: var(--verdeNavidad)!important;
+}
+
 .info-streaming {
-    background-color: black;
-    color: var(--white);
+    background-color: var(--crema);
+    color: var(--café);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
 footer {
     margin: 2rem;
-    color: yellow;
+    color: var(--red);
 }
 
 footer a {
     text-decoration: none;
-    color: black;
+    color: var(--vino);
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
     font-weight: bold;
 }
 
 footer a:hover {
-    color: var(--white);
+    color: var(--verdeNavidad);
 }
 
 /*Combos*/
