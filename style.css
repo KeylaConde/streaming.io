@@ -54,11 +54,12 @@
 }
 
 body {
-    background-image: url(./image/navideño2.jpg);
+    background-image: url(./image/bolas-de-navidad.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
     margin: 0;
+    background-repeat: no-repeat;
 }
 
 #main .carousel-inner img {
