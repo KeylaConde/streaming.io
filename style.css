@@ -129,7 +129,7 @@ section img {
     box-shadow: 0px 0px 10px rgba(209, 195, 0, 0.902);
 }
 
-.comprar :hover{
+.comprar:hover{
     background-color: var(--color-yellow)!important;
 }
 
